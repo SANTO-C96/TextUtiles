@@ -17,7 +17,7 @@ function App() {
     <Navbar/>
   <div className="container my-4">
     <Routes>
-      <Route path='/TextForm' element={<TextForm/>}/>
+      <Route path='/' element={<TextForm/>}/>
       <Route path="/About" element={<About/>}/>
     </Routes>
   </div>
